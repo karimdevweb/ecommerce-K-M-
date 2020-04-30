@@ -1,0 +1,691 @@
+
+
+
+/******nav*******/
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    color: #000000;
+    
+}
+
+h1 a{
+    color:green;
+    text-decoration: none;
+    
+    
+}
+.k_m{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+button,input[type=submit]{
+    padding: 15px;
+    width: 150px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 30px;
+    padding: 10px;
+}
+
+
+
+.offre a{
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightsalmon;
+    text-decoration: none;
+
+}
+.choix a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    margin: 10px;
+}
+
+.service a{
+    text-decoration: none;
+    color: hotpink;
+    margin: 10px;
+
+}
+.panier a{
+    text-decoration: none;
+    color: deepskyblue;
+    margin: 10px;
+    font-weight: bold;
+
+}
+.block{
+    display: block;
+    margin: 20px;
+}
+
+
+/*******************************************message flash ***************************/
+
+.alert_flash{
+    position: absolute;
+    background-color: #ffffff;
+    left: 15%;
+    right: 15%;
+    top: 40%;
+    padding: 20px 10px;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 10;
+}
+.alert_flash p{
+  width: 100%;
+  margin: 0px 0 5px;
+}
+
+.alert_flash.alert_warning{
+    border: 4px solid rgb(206, 143, 25);
+    color: rgb(206, 143, 25);
+}
+.alert_flash.alert_error{
+    border: 4px solid rgb(214, 39, 8);
+    color:rgb(228, 52, 20) ;
+}
+.alert_flash.alert_information{
+    border: 4px solid rgb(54, 178, 228);
+    color:rgb(54, 178, 228) ;
+}
+.alert_flash.alert_success{
+    border: 4px solid rgb(19, 214, 45);
+    color:rgb(19, 214, 45) ;
+}
+
+
+
+
+/*******************************************************************************************************************************************************************/
+                          /******************account_activation_ view******************/
+
+.account_confirmation_section{
+    background-image: url("../image/account_salutation.jpg");
+    background-position: center;
+    background-repeat:repeat-y;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+.account_confirmation_div{
+    text-align: center;
+    margin: auto;
+    border: 4 solid #d42710 ;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    background-color: aqua;
+    opacity: 0.9;
+}
+.account_confirmation_div p{
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(15, 15, 15);
+
+}
+
+
+.nav-desktop{
+    display: none;
+}
+
+
+
+
+
+
+
+
+        /****************************** searchbar ********************************************/
+
+            .searchbar{
+            margin-bottom: auto;
+            margin-top: auto;
+            height: 60px;
+            background-color: #353b48;
+            border-radius: 30px;
+            padding: 10px;
+            }
+
+            .search_input{
+            color: white;
+            border: 0;
+            outline: 0;
+            background: none;
+            width: 180px;
+            color:#fff;
+            line-height: 40px;
+          
+            }
+
+            .search_icon{
+            height: 40px;
+            width: 40px;
+            float: right;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color:#fff;
+            text-decoration:none;
+            }
+
+
+
+        /**********footer***********/
+
+        .footer{
+            background-color: coral;
+            margin-top: 15px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer li a {
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+        .footer_flex{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; 
+            margin: 10px;
+            padding: 10px;
+        }
+        footer p{
+            text-align: center;
+            font-size: 16px;
+            font-family: 'Times New Roman', Times, serif;
+        
+            padding-bottom: 10px;
+        }
+        footer .icon li {
+            display: inline-block;
+            padding: 10px;
+        
+        }
+        footer .icon{
+            text-align: center;
+        }
+
+
+
+        /*********************************** home *************************************/
+        .home_image{
+            position: relative;
+            height: 600px;
+            margin: 20px 0 ;
+        }
+
+        .home_absolute_div{
+            position: absolute;
+            bottom: 15px;
+            left: 8%;
+            text-align: center;
+
+        }
+        .h3{
+            color: #ffff;
+        }
+
+
+
+/*******************************************************************************************************************************************************************/
+                          /******************page_not_found view******************/
+
+.page_not_found_section{
+    position: relative;
+    background-image: url("../image/page_not_found.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 80vh;
+}
+.page_not_found_div{
+    position: absolute;
+    left: 23%;
+    bottom: 10%;
+
+}
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************************************************************************************************/
+/************************************************************------Media queries---************************************************************************/
+
+@media screen and (min-width:768px)
+{
+
+/*******************************************************************************************************************************************************************/
+                          /******************account_activation_ view******************/
+
+    .account_confirmation_section{
+        background-repeat:no-repeat;  
+    }
+
+
+/*******************************************************************************************************************************************************************/
+                          /******************page_not_found******************/
+
+    .page_not_found_div{
+        left: 37%;
+    }
+                        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************************************************************************************************/
+/************************************************************------Media queries---************************************************************************/
+
+@media screen and (min-width:1024px)
+{
+
+.nav-desktop{
+    display: block;
+}
+.nav_cell{
+    display: none;
+}
+        /*****hid show****/
+
+
+        .hide{
+            display: none;
+        }
+        header nav div.choix li:hover .hide{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width:100%;
+            position: absolute;
+            left:0;
+            vertical-align: top;
+            padding:20px 25px 10px;
+            z-index: 10;
+        }
+        .hide:after{
+            content: "";
+            margin: 10px;
+            border: 2px solid #0e46df;
+            background-color: #0e46df;
+            width: 100%;
+            height: 10px;
+        }
+
+
+        /*****************main***************/
+
+
+        form{
+            display: block;
+            margin:  auto;
+            text-align: center;
+            
+        }
+        table,th,td{
+            padding: 25px;
+            border-collapse: collapse;
+        }
+        table .tbody{
+            border:3px solid rgb(204, 29, 29)
+        }
+        input::placeholder{
+            text-align: center;
+        }
+
+        .story{
+            
+            padding: 25px;
+        }
+
+
+
+
+        /*******************************************************************/
+        /***************inscription connexion*******************/
+        .button{
+            width: 200px;
+        }
+        form{
+            margin: 20px;
+
+        }
+
+        .p  {
+            text-align: center;
+            margin: 15px;
+        }
+        .myForm{
+            background-color: rgba(0,0,0,0.5) !important;
+            padding: 15px !important;
+            border-radius: 15px !important;
+            color: white;
+        }
+        input{
+            border-radius: 15px  !important;
+        }
+
+
+
+
+
+        /****************************** searchbar ********************************************/
+
+
+            .search_input{
+            caret-color:transparent;
+            transition: width 0.4s linear;
+            }
+
+            .searchbar:hover > .search_input{
+            padding: 0 10px;
+            width: 450px;
+            caret-color:red;
+            transition: width 0.4s linear;
+            }
+
+            .searchbar:hover > .search_icon{
+            background: white;
+            color: #e74c3c;
+            }
+
+            .search_icon{
+            color:transparent;
+            }
+
+
+
+   
+
+
+        /*********************************** home *************************************/
+
+        .home_absolute_div{
+            left: 35%;
+        }
+       
+
+
+
+
+
+
+
+
+
+
+        /************************************productsList page****************************/
+        .product_div{
+            border: 3px solid rgb(241, 138, 138);
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .img_product{
+            height: 350px;
+            width: 100%;
+        }
+        .option_product{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border: 2px solid rgb(231, 71, 71);
+            text-align: center;
+            border-radius: 10px;
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+        }
+        .price{
+            font-weight: bold;
+        }
+        i,.quantity{
+            font-size: 24px;
+            padding: 5px;
+            cursor: pointer;
+        }
+        i:hover{
+            color: rgb(231, 71, 71);
+            
+        }
+
+
+
+
+
+        /************************************one product page****************************/
+
+        .oneproduct_div{
+        display: inline-block;
+        width: 68%;
+        margin: 0px;
+        }
+        .description{
+            display: inline-block;
+            width: 32%;
+            margin: 0px;
+            vertical-align: top;
+            padding: 10px;
+        }
+
+        .description_div.scroll{
+            position: fixed;
+            top: 10px;
+            box-shadow: 0px 0px 10px 1px rgb(241, 138, 138);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .oneproduct_image{
+            display: inline-block;
+            height: 500px;
+            width: 510px;
+            margin: 10px ;
+            border: 3px solid rgb(231, 71, 71);
+            border-radius: 10px;
+        }
+        .oneproduct_image img{
+            height: 100%;
+            width: 100%;
+        }
+        .carousel_div{
+            border: 3px solid rgb(233, 88, 88);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+       .img_suggestion{
+           height: 200px;
+       }
+
+        .img_style{
+            width: 250px;
+            height: 250px;
+            margin: 10px;
+            border: 1px solid rgb(218, 213, 213);
+        }
+
+
+
+        /****************************contact_page******************************************/
+        .contact_firstsection{
+            height: 100vh;
+            margin: 10px 0px 0px 0px;
+        }
+        .contact_section{
+            background-image: url("../image/contactimg.png");
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            
+        }
+
+        .contact_form{
+            vertical-align: baseline;
+            
+        }
+
+
+        /**************************connexion / inscription page *************************/
+
+        .connexion_section{
+            background-image: url("../image/connexionimg.jpg");
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .inscription_section{
+            background-image: url("../image/inscriptionimg.jpg");
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+
+        /************************************favoris/cart page ********************************/
+
+        .favoris_div{
+            height: 390px;
+            width: 195px;
+        }
+
+
+        .cart_div{
+            height: 150px;
+            width: 100%;
+        }
+
+
+        .red_heart{
+            color: rgb(218, 8, 8);
+        }
+
+        /************************************client_dashboard_page ********************************/
+
+        .client_dashboard_section{
+            background-image: url("../image/client_dashboard.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;   
+        }
+
+        /************************************client_dashboard_page ********************************/
+        .admin_dashboard_section{
+            background-image: url("../image/admindashboard.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+        /*********************************admin dashboard *******************************/
+        /***************edit_product****************/
+
+
+        .image_div{
+            height: 400px;
+        }
+
+
+        .edit_image{
+            color: rgb(233, 13, 13);
+            position: absolute;
+            top: 0px;
+            right: 15px;
+            cursor: pointer;
+            font-size: 30px;
+        }
+
+/********************************************************newsletter**************************************/
+
+section.newsletter{
+    
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 0;
+    background-color: #353b48;
+    opacity: 0.9;
+}
+.newsletter_hide{
+    display: none;
+}
+
+.newsletter_div{
+    margin-top: 100px;
+}
+      
+/*******************************************************************************************************************************************************************/
+                            /******************page_not_found******************/
+
+    .page_not_found_div{
+        left: 51%;
+        bottom: 15%;
+    }
+
+
+}
